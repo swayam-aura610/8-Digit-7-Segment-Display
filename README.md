@@ -1,6 +1,5 @@
 # 8-Digit-7-Segment-Display
  Interface an 8-digit 7-segment LED display with 8 keys using an 8051 microcontroller to demonstrate multimode message display.
-# 8-Digit 7-Segment LED Display with 8 Keys  
 
 ## Overview  
 This project demonstrates interfacing an 8-digit 7-segment LED display with 8 keys using the 8051 microcontroller (AT89C51). The system displays messages in 8 distinct modes, controlled by key presses, showcasing versatile message display patterns.  
