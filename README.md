@@ -1,2 +1,59 @@
 # 8-Digit-7-Segment-Display
  Interface an 8-digit 7-segment LED display with 8 keys using an 8051 microcontroller to demonstrate multimode message display.
+# 8-Digit 7-Segment LED Display with 8 Keys  
+
+## Overview  
+This project demonstrates interfacing an 8-digit 7-segment LED display with 8 keys using the 8051 microcontroller (AT89C51). The system displays messages in 8 distinct modes, controlled by key presses, showcasing versatile message display patterns.  
+
+## Features  
+- **Key-Controlled Modes**:  
+  - Key 1: Steady message  
+  - Key 2: Blinking message  
+  - Key 3: Rolling through right  
+  - Key 4: Rolling through left  
+  - Key 5: Even-numbered LEDs blinking, others steady  
+  - Key 6: Odd-numbered LEDs blinking, others steady  
+  - Key 7: Rolling message from outside to inside  
+  - Key 8: Rolling message from inside to outside  
+
+- Efficiently integrates hardware and software for dynamic message displays.  
+
+## Tools Used  
+- **Microcontroller**: AT89C51  
+- **Software**:  
+  - Keil uVision3 (programming)  
+  - Proteus (simulation)  
+
+## Components  
+- 8051 microcontroller (AT89C51)  
+- 8-digit 7-segment LED display  
+- Transistors, resistors, capacitors, diodes  
+- Crystal oscillator (12 MHz)  
+- Push buttons  
+
+## Applications  
+- Digital clocks for displaying time  
+- Commercial signboards for static or dynamic messages  
+- Long and continuous message displays in public spaces  
+
+## Circuit and Connections  
+- **Port 0**: Connected to LED segments via 330Ω resistors.  
+- **Port 2**: Drives the 7-segment LEDs using PNP transistors.  
+- **Port 1**: Receives input from 8 keys in pull-down configuration.  
+- Crystal oscillator connected to XTAL1 and XTAL2 for clock generation.  
+
+![Circuit Diagram](path/to/diagram) *(Include the circuit diagram here)*  
+
+## Code Structure  
+The assembly language code includes:  
+- Initialization of the 8051 microcontroller.  
+- Interrupt-driven timer for real-time message switching.  
+- Mode-specific routines for handling key presses and corresponding LED behavior.  
+
+```assembly
+; Sample Code Snippet
+ORG 0000H  
+LJMP MAIN  
+ORG 000BH   ; INTERRUPT TIMER0  
+MOV TH0, #0F6H  ; Timer delay setup  
+...
