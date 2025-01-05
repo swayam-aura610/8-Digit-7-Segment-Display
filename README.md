@@ -15,7 +15,7 @@ This project demonstrates interfacing an 8-digit 7-segment LED display with 8 ke
   - Key 7: Rolling message from outside to inside  
   - Key 8: Rolling message from inside to outside  
 
-- Efficiently integrates hardware and software for dynamic message displays.  
+- Efficiently integrates hardware and software for dynamic message displays. 
 
 ## Tools Used  
 - **Microcontroller**: AT89C51  
@@ -41,6 +41,7 @@ This project demonstrates interfacing an 8-digit 7-segment LED display with 8 ke
 - **Port 1**: Receives input from 8 keys in pull-down configuration.  
 - Crystal oscillator connected to XTAL1 and XTAL2 for clock generation.  
 
-![Proteus Diagram](![image](https://github.com/user-attachments/assets/ff540337-4820-4a37-a44a-6fcbbb47f73b)
+![Proteus Diagram] ![interface led proteus diagram](https://github.com/user-attachments/assets/bf1f603f-0f8e-4c66-8d6d-c763e338f47a)
+
 ) 
 
