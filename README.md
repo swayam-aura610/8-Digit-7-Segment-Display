@@ -41,18 +41,6 @@ This project demonstrates interfacing an 8-digit 7-segment LED display with 8 ke
 - **Port 1**: Receives input from 8 keys in pull-down configuration.  
 - Crystal oscillator connected to XTAL1 and XTAL2 for clock generation.  
 
-![Circuit Diagram](path/to/diagram) *(Include the circuit diagram here)*  
+![Proteus Diagram](![image](https://github.com/user-attachments/assets/ff540337-4820-4a37-a44a-6fcbbb47f73b)
+) 
 
-## Code Structure  
-The assembly language code includes:  
-- Initialization of the 8051 microcontroller.  
-- Interrupt-driven timer for real-time message switching.  
-- Mode-specific routines for handling key presses and corresponding LED behavior.  
-
-```assembly
-; Sample Code Snippet
-ORG 0000H  
-LJMP MAIN  
-ORG 000BH   ; INTERRUPT TIMER0  
-MOV TH0, #0F6H  ; Timer delay setup  
-...
