@@ -41,8 +41,8 @@ This project demonstrates interfacing an 8-digit 7-segment LED display with 8 ke
 - **Port 1**: Receives input from 8 keys in pull-down configuration.  
 - Crystal oscillator connected to XTAL1 and XTAL2 for clock generation.  
 
-![Proteus Diagram] ![interface led proteus diagram](https://github.com/user-![Uploading WhatsApp Image 2025-01-05 at 18.56.23_2e4c1f25.jpg…]()
-attachments/assets/bf1f603f-0f8e-4c66-8d6d-c763e338f47a)
+![Proteus Diagram] ![interface led proteus diagram](https://github.com/user-attachments/assets/bde1785e-93da-486e-9eb6-dedee57cac16)
+
 
 ![Image]![WhatsApp Image 2025-01-05 at 18 56 23_316dd619](https://github.com/user-attachments/assets/d31d700d-2314-489a-9fce-414b52e4f19b)
 
